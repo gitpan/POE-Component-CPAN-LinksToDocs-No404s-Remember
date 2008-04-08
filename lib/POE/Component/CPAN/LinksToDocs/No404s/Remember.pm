@@ -3,7 +3,7 @@ package POE::Component::CPAN::LinksToDocs::No404s::Remember;
 use warnings;
 use strict;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use CPAN::LinksToDocs::No404s::Remember;
 use Carp;
