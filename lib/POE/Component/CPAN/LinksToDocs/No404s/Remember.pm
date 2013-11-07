@@ -3,7 +3,7 @@ package POE::Component::CPAN::LinksToDocs::No404s::Remember;
 use warnings;
 use strict;
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 use CPAN::LinksToDocs::No404s::Remember;
 use Carp;
@@ -41,6 +41,8 @@ sub _process_request {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

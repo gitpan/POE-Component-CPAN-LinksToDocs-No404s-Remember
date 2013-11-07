@@ -11,11 +11,13 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
-        'Carp'                                     => 1.04,
-        'POE'                                      => 0.9999,
+        'Carp'                                     => 0,
+        'POE'                                      => 0,
         'CPAN::LinksToDocs::No404s::Remember'      => 0.002,
         'POE::Component::NonBlockingWrapper::Base' => 0.001,
+        perl                                       => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'POE-Component-CPAN-LinksToDocs-No404s-Remember-*' ],
     create_makefile_pl => 'traditional',
 );
